@@ -1,2 +1,2 @@
 # Mixu-Cafe
-Database Project Third Semester
+Database Project
