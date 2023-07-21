@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: Roboto-Regular, Roboto, Helvetica Neue, Helvetica, Tahoma, Arial, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #373b3e;
+}
+
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.banner {
+  text-align: center;
+  background-image: url("banner.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 150px;
+}
+
+input[type="email"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+button {
+  background-color: #e96729;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  border-top: 3px solid #e96b2e;
+  border-right: 3px solid #eeeeee;
+  border-left: 3px solid #eeeeee;
+  margin-left: auto;
+  margin-top: 35px;
+}
+
+.details {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: auto;
+  font-size: 12px;
+  color: #73777a;
+}
+
+.footer {
+  overflow: hidden;
+  margin-top: 25px;
+  background-color: #4b5054;
+}
+
+.infooter a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.infooter {
+  text-align: left;
+  color: white;
+  margin: 12px;
+  margin-left: 100px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.infooter a {
+  margin-right: 50px;
+}
+
+input[type="checkbox"]:before {
+  font-family: "FontAwesome";
+  content: "\f00c";
+  font-size: 13px;
+  color: transparent;
+  background: white;
+  border: 1px solid orange;
+}
+
+input[type="checkbox"]:checked:before {
+  color: white;
+  background: orange;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alibaba Cloud</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <div style="margin-right: 65px;">
+            <img src="alicloud.png" width="120px" style="margin-left: 75px;">
+                <a href="#" style="margin-top: 2px;">Login</a>
+                <a href="#" style="margin-right: 3px; margin-top: 2px;">Homepage</a>
+                <div class="dropdown" style="margin-right: 0px; margin-top: 2px;">
+                    <button class="dropbtn">
+                        <img src="earth.png" width="15px">
+                        Intl - English 
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Indonesia</a>
+                        <a href="#">French</a>
+                        <a href="#">Espana</a>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+        
+    <div class="banner">
+        <br>
+        <p class="textbanner" style="font-size: 35px; margin-bottom: 0px; margin-top: 30px;">Create Your Alibaba Cloud Account</p>
+        <p class="textbanner" style="font-size: 16px;">Free Access to Over 50 Products and Up to 12 Months Usage for Elastic Compute Service!</p>
+    </div>
+
+    <div style="display:inline-flex; margin-top: 0px;">
+        <div style="width: 18.1%;"></div>
+        <div class="container" style="width: 39%;">
+            <div style="margin:auto; width:80%;">
+                <br>
+                <form action="action_page.php" name="form">
+                    <select style="margin-bottom: 3px;" id="country" name="country">
+                        <option value="australia">Indonesia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option> 
+                    </select>
+                    <label style="color: #ec8923; font-size: 12px;">&reg; Country/region will be used for currency and tax purposes and cannot be changed after registration.</label>
+
+                    <input style="margin-bottom: 0px; margin-top: 20px;" type="email" id="email" placeholder="Enter your email">
+                    <p id="msg1" style="margin-top: 10px; color: red; font-size: 12px;"></p>
+                    <input style="margin-bottom: 0px; margin-top: 13px;" type="password" id="pass" placeholder="Enter your password">
+                    <p id="msg2" style="margin-top: 10px; color: red; font-size: 12px;"></p>
+                    <input style="margin-bottom: 0px; margin-top: 13px;" type="password" id="passcon" placeholder="Confirm your password">
+                    <p id="msg3" style="margin-top: 10px; color: red; font-size: 12px;"></p>
+
+                    <div style="margin-top: 20px;margin-bottom: 25px; display: inline-flex;">
+                        <div style="margin: 1px;">
+                            <input type="checkbox" name="" id="" value="I Agree T&C">
+                        </div>
+                        <div>
+                            <label style="font-size: 12px;">I hereby agree to the Alibaba Cloud International Website 
+                                <a href="#" style="color: #e96729; text-decoration: none">Membership Agreement, Privacy Policy, Product Terms</a>  and 
+                                <a href="#" style="color: #e96729; text-decoration: none">Terms of Use,</a> 
+                                under which I am contracting with Alibaba Cloud (Singapore) Private Limited.
+                            </label>
+                        </div>
+                    </div>
+
+                    <button type="button" onclick="validateForm()">Confirm</button>
+
+                    
+                    <br><br><br>
+                    <div class="member" style="text-align: center;">
+                        <label></">Already a member?</label>
+                        <a href="#" style="color: #e96729; text-decoration: none;">Sign in</a>
+                        <br>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="details">
+            <p style="font-size: 15px; color: black;"><b>Account Benefits & Registration Tips </b></p>
+            <p style="margin-bottom: 0px; color: black;"><b>Free Trial</b></p>
+            <p style="margin-top: 5px;">Get free hands-on experience with 50+ <br>products. Now up to 12 Months for Elastic <br>Compute Service.</p>
+            
+            <p style="margin-bottom: 0px; color: black;"><b>Premium Support Services</b></p>
+            <p style="margin-top: 5px; font-size: 12px; color: #e96729;">1-on-1 pre-sale consultation,<span style="font-size: 12px; color: #73777a; text-decoration: none;">24/7 after-sales <br>technical support with 6 free tickets per qearter</span>
+            </p>
+            <p style="margin-bottom: 0px; color: black;"><b>How do I select the country or region of my <br>account?</b></p>
+            <p style="margin-top: 5px;">For enterprise customers, please select the <br>account registration country/region based on <br>your business license. If not, you may be <br>unable to obtain the correct invoice for tax <br>deduction, and may not be eligible for your <br>local tax free policy, or may even be unbale to <br>pay for the invoice.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="infooter">
+            <a href="#" style="margin-right: 50px;">About Us</a>
+            <a href="#" style="margin-right: 50px;">Privacy Policy</a>
+            <a href="#" style="margin-right: 50px;">Legal</a>
+            <a href="#" style="margin-right: 50px;">Notice List</a>
+            <p style="font-size: 12px; color: #b5b4b7;">Alibaba Group     Taobao Marketplace     Tmall     Juhuasuan     AliExpress     Alibaba.com     1688     Alimana     Alitrip     YunOS     AliTelecom     AutoNavi     UCWeb     Umeng     Xiami     DingTalk     Alipay</p>
+            <p style="font-size: 12px; color: #b5b4b7;">&copy; 2009-2021 Copyright by Alibaba Cloud All rights reserved</p>
+        </div>
+    </div>
+    
+</body>
+
+</html>
