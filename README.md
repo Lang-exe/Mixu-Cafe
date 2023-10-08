@@ -1,2 +1,2 @@
 # Mixu-Cafe
-Database Project
+Database Course Project
